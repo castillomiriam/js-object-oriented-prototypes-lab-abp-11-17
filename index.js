@@ -3,17 +3,17 @@
    this.homeState = homeState
    this.training = training
 
-   this.prototype.veto = function(){
+   BoardMember.prototype.veto = function(){
      return 'No, I must disagree'
    }
-   this.prototype.approve = function(){
+   BoardMember.prototype.approve = function(){
      return 'You can do that!'
    }
-   this.prototype.doCharity = function(){
+   BoardMember.prototype.doCharity = function(){
      return "I like to help people."
    }
 
-   this.prototype.releasePressStatement = function(){
+   BoardMember.prototype.releasePressStatement = function(){
      return "You will see great things from Scuber."
    }
 
